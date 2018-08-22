@@ -1,0 +1,40 @@
+nav li a:hover{
+    border: 5px outset darkgrey;
+    transition-delay: 0ms;
+    transition-property: border, color, background-color;
+    transition-duration: 100ms;
+    transition-timing-function: linear;
+}
+
+#loginbtn:hover{
+    border: 5px outset darkgrey;
+    transition-delay: 0ms;
+    transition-property: border, color, background-color;
+    transition-duration: 20ms;
+}
+#signupbtn:hover{
+    border: 5px outset darkgrey;
+    transition-delay: 0ms;
+    transition-property: border, color, background-color;
+    transition-duration: 10ms;
+}
+summary:hover{
+    
+    animation-delay: 0ms;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: "summary";
+    animation-direction: alternate;
+}
+@keyframes summary {
+   to{
+        border-top: 10px solid gold;
+    }
+}
+details li:hover{
+    border-bottom: 20px solid gold;
+    transition-delay: 0ms;
+    transition-property: border-bottom;
+    transition-duration: 50ms;
+}

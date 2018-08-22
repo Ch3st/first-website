@@ -1,0 +1,207 @@
+*{
+    margin: 0 auto 0;
+    text-align: center;
+    
+}
+body{
+    width: 960px;
+    background-color: darkgoldenrod;
+    background-image:url(file:///C:/Users/Administrator/Desktop/New%20folder%20chester/Front-End%20Web%20Dev/bookwork/images/background.jpg.jpg);
+    background-size: 1030px 1250px;
+    background-repeat: inherit;
+    background-blend-mode: color;
+    background-position-x: center;
+    font-family: Helvetica, sans-serif, Arial;
+}
+header{
+    border-radius: 10px;
+     background-color: cadetblue;
+     color: floralwhite;
+     padding: 10px 0 10px 0;
+     margin: 30px 10px 30px 10px;
+     font-size: xx-large;
+     box-shadow: 10px 10px 21px 1px darkslategrey;
+     font-famiLy: monospace;
+     
+}
+header input{
+     width: 290px;
+     height: 30px;
+    margin: 15px 0 15px 0;
+    font-size: x-large;
+ }
+  nav{
+     clear: both;
+ }
+ nav ul{
+     list-style: none;
+     float: inline-start;
+ }
+ nav li{
+     float: left;
+     padding: 0 10px 0 0;
+ }
+ nav li a{
+     padding: 16px;
+     text-decoration: none;
+     border-radius: 5px;
+     background-color: burlywood;
+     color: sienna;
+     font-size: x-large;
+     
+ }
+ nav li a:visited{
+    color: firebrick;
+}
+ /* input start */
+ #login{
+     clear: right;
+    float: inline-end;
+    margin: -15px 55px 40px 0px;
+    padding: 5px;
+    font-size: x-large;
+    background-color: cadetblue;
+    color: floralwhite;
+    border-radius: 10px;
+
+ }
+    #loginbtn{
+    clear: right;
+    float: inline-end;
+    margin: -30px 97px 30px 0px;
+    padding: 10px;
+    font-size: x-large;
+    text-decoration: none;
+    background-color: burlywood;
+    color: sienna;
+    border-radius: 10px;
+ }
+ #loginbtn:visited{
+     color: firebrick;
+ }
+ #signup{
+    clear: right;
+   float: inline-end;
+   margin: -15px 30px 40px 0px;
+   padding: 5px;
+   font-size: x-large;
+   background-color: cadetblue;
+   color: floralwhite;
+   border-radius: 10px;
+}
+ #signupbtn{
+     clear: right;
+    float: inline-end;
+    margin: -30px 90px 30px 0px;
+    padding: 10px;
+    font-size: x-large;
+    text-decoration: none;
+    background-color: burlywood;
+    color: sienna;
+    border-radius: 10px;
+ }
+ #signupbtn:visited{
+     color: firebrick;
+ }
+ /* iputs end */
+ details{
+     margin: 52px 0 0 31px;
+     padding: 50px;
+     clear: both;
+     float: inline-start;
+     background-color: cadetblue;
+     border-radius: 70px;
+     box-shadow: 10px 10px 21px 1px darkslategrey;
+ }
+ summary{
+     padding: 20px;
+     margin: 0 50px;
+     font-size: x-large;
+     color: floralwhite;
+     list-style: none;
+     border-radius: 60px;
+     cursor: pointer;
+ }
+ details ol{
+     padding: 0px;
+ }
+ details li{
+     padding: 19px;
+     list-style: none;
+     font-size: x-large;
+     border-top: 1px solid gold;
+     border-radius: 60px;
+ }
+ details li a{
+     text-decoration: none;
+     color: floralwhite;
+ }
+ aside{
+     margin: 70px 70px 0 0;
+     padding: 52px;
+     clear: inherit;
+     float: right;
+     background-color: firebrick;
+     color: goldenrod;
+     border-radius: 180px;
+     font-size: x-large;
+     box-shadow: 10px 10px 21px 1px darkslategrey;
+ }
+ aside li{
+     padding: 5px;
+     list-style: decimal;
+     text-align: left;
+ }
+ section{
+     padding: 10px 0 10px 0;
+     clear: both;
+     font-size: x-large;
+    
+ }
+ h2{
+     padding: 10px;
+     margin: 28px;
+     border-radius: 30px;
+     background-color: burlywood;
+     color: firebrick;
+ }
+ h3{
+     padding: 10px;
+     margin: 20px;
+    border-radius: 28px;
+    background-color: burlywood;
+    color: firebrick;
+ }
+ p{
+     padding: 20px;
+     margin: 20px 50px;
+     background-color: darkgrey;
+     background-image: url(file:///C:/Users/Administrator/Desktop/New%20folder%20chester/Front-End%20Web%20Dev/bookwork/images/text.png);
+     background-blend-mode: color;
+     border-radius: 10px;
+     box-shadow: 0px 0px 20px 15px darkslategrey inset;
+     text-justify: inter-word;
+     word-spacing: -1px;
+     line-height: 45px;
+     text-transform: capitalize;
+     letter-spacing: 3px;
+     text-shadow: 10px 10px 21px floralwhite;
+     font-family: cursive, serif;
+     font-size: larger;
+
+ }
+ /* bold letters */
+ p b{
+     color: firebrick;
+     font-size: 40px;
+ }
+ footer{
+     width: 960px;
+     background-color: cadetblue;
+     color: floralwhite;
+     border-radius: 10px;
+     padding: 10px 0 10px 0;
+     font-size: x-large;
+ }
+ 
+ 

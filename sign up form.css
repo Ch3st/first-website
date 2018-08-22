@@ -1,0 +1,158 @@
+*{
+    margin: 0 auto 0;
+    text-align: center;
+}
+body{
+    width: 960px;
+    background-color: darkgoldenrod;
+    background-image:url(file:///C:/Users/Administrator/Desktop/New%20folder%20chester/Front-End%20Web%20Dev/bookwork/images/background.jpg.jpg);
+    background-blend-mode: color;
+    background-repeat: inherit;
+    background-size: 1030px 1250px;
+    background-position-x: center;
+    font-family:  Helvetica, sans-serif, Arial;
+}
+header{
+    margin: 30px 0 30px 0;
+    padding: 10px 10px 10px 10px;
+    background-color: cadetblue;
+    color: floralwhite;
+    font-size: xx-large;
+    border-radius: 10px;
+    box-shadow: 10px 10px 21px 1px darkslategrey;
+    font-family: monospace;
+}
+nav ul{
+    list-style: none;
+    float: left;
+}
+nav li{
+    padding: 10px 0px 10px 0px;
+}
+nav li a{
+    padding: 16px;
+    text-decoration: none;
+    background-color: burlywood;
+    color: sienna;
+    font-size: x-large;
+    border-radius: 5px;
+}
+h2{
+    width: 610px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0px 0px 170px;
+    clear: both;
+    background-color: floralwhite;
+    color: cadetblue;
+    font-size: xx-large;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 5px solid cadetblue;
+    box-shadow: 10px 10px 21px 1px darkslategrey;
+}
+fieldset{
+    padding: 30px 10px 50px 20px;
+    margin: -5px 0px 0px 170px;
+    clear: both;
+    width: 600px;
+    background-color: darkgray;
+    font-size: xx-large;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border: 5px solid cadetblue;
+    box-shadow: 10px 10px 21px 1px darkslategrey;
+}
+/* inputs start */
+#name{
+    padding: 15px 25px 15px 25;
+    font-size: medium;
+    margin: 15px;
+    width: 223px;
+    height: 36px;
+}
+#name:valid{
+    outline: medium solid forestgreen;
+}
+#name:invalid{
+    outline: medium solid firebrick;
+}
+#age{
+    padding: 15px 25px 15px 25px;
+    font-size: medium;
+    margin: 15px;
+}
+#age:valid{
+    outline: medium solid forestgreen;
+}
+#age:invalid{
+    outline: medium solid firebrick;
+}
+#gender{
+    padding: 15px 25px 15px 25px;
+    font-size: medium;
+    margin: 15px;
+}
+#gender:valid{
+    outline: medium solid forestgreen;
+}
+#gender:invalid{
+    outline: medium solid firebrick;
+}
+#cell{
+    padding: 15px 25px 15px 25px;
+    font-size: medium;
+    margin: 15px;
+    height: 14px;
+}
+#cell:valid{
+    outline: medium solid forestgreen;
+}
+#cell:invalid{
+    outline: medium solid firebrick;
+}
+#email{
+    padding: 15px 25px 15px 25px;
+    font-size: medium;
+    margin: 15px;
+    height: 14px;
+}
+#email:valid{
+    outline: medium solid forestgreen;
+}
+#email:invalid{
+    outline: medium solid firebrick;
+}
+#location{
+    padding: 15px 25px 15px 25px;
+    font-size: large;
+    margin: 15px;
+    height: 14px;
+}
+#location:valid{
+    outline: medium solid forestgreen;
+}
+#location:invalid{
+    outline: medium solid firebrick;
+}
+#submit{
+    padding: 10px;
+    font-size: large;
+    background-color: burlywood;
+    border-radius: 10px;
+    color: sienna;
+    margin: 15px;
+}
+/* inputs end */
+/* links visited start */
+:link:visited{
+    color: white;
+}
+footer{
+    width: 940px;
+    padding: 10px;
+    margin: 30px 0px 0px 0px;
+    background-color: cadetblue;
+    color: floralwhite;
+    font-size: x-large;
+    border-radius: 10px;
+}

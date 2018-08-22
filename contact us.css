@@ -1,0 +1,118 @@
+*{
+    margin: 0 auto 0;
+    text-align: center;
+}
+body{
+    width: 960px;
+    background-color: darkgoldenrod;
+    background-image:url(file:///C:/Users/Administrator/Desktop/New%20folder%20chester/Front-End%20Web%20Dev/bookwork/images/background.jpg.jpg);
+    background-size: 1030px 1250px;
+    background-repeat: inherit;
+    background-blend-mode: color;
+    background-position-x: center;
+    font-family: helvetica, arial;
+}
+header{
+    margin: 30px 10px 30px 10px;
+    padding: 10px 0 10px 0;
+    background-color: cadetblue;
+    color: ghostwhite;
+    font-size: xx-large;
+    border-radius: 10px;
+    box-shadow: 10px 10px 21px 1px darkslategrey;
+    font-family: monospace;
+}
+nav ul{
+    clear: both;
+    list-style: none;
+    float: left;
+}
+nav li{
+    padding: 10px 0 10px 10px;
+    float: left;
+}
+nav li a{
+    padding: 16px;
+    text-decoration: none;
+    background-color: burlywood;
+    color: sienna;
+    border-radius: 5px;
+    font-size: x-large;
+    transition-delay: 0ms;
+    transition-duration: 100ms;
+}
+h3{
+    padding: 20px;
+    margin: 40px 0px -10px 45px;
+    clear: both;
+    float: left;
+    background-color: cadetblue;
+    color: floralwhite;
+    font-size: x-large;
+    border-radius: 10px;
+    box-shadow: 10px 10px 21px 1px darkslategrey;
+}
+ol{
+    padding: 30px;
+    margin: 0px 10px 20px 26px;
+    clear: both;
+    float: left;
+    list-style: none;
+    background-color: floralwhite;
+    color: cadetblue;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 10px;
+    box-shadow: 10px 10px 21px 1px darkslategrey;
+}
+ol li{
+    clear: both;
+    padding: 10px 0 10px 0;
+    text-align: left;
+    border-bottom: 1px dotted;
+}
+table caption{
+    padding: 18px;
+    margin: 80px 10px 0px 10px;
+    background-color: firebrick;
+    color: floralwhite;
+    font-size: x-large;
+    font-weight: bolder;
+    border-radius: 10px;
+    box-shadow: 10px 10px 21px 1px darkslategrey;
+}
+table{
+    padding: 20px;
+    background-color: floralwhite;
+    color: firebrick;
+    border-radius: 10px;
+    box-shadow: 10px 10px 21px 1px darkslategrey;
+}
+table tr td{
+    text-align: left;
+    padding: 13px 0px 0px 5px;
+    font-size: x-large;
+    font-weight: bolder;
+    
+}
+tfoot tr th{
+    padding-top: 10px;
+    font-size: large;
+}
+#submit{
+    margin: 10px 10px 40px 10px;
+    background-color: burlywood;
+    color: sienna;
+    border-radius: 10px;
+    padding: 10px;
+}
+footer{
+    width: 940px;
+    padding: 10px;
+    margin-top: 15px;
+    clear: both;
+    background-color: cadetblue;
+    color: floralwhite;
+    border-radius: 10px;
+    font-size: x-large;
+}

@@ -1,0 +1,21 @@
+nav li a:hover{
+    border: 5px outset darkgrey;
+    transition-delay: 0ms;
+    transition-property: border;
+    transition-duration: 100ms;
+    transition-timing-function: linear;
+}
+#submit:hover{
+    border: 5px outset darkgrey;
+    transition-delay: 0ms;
+    transition-property: border;
+    transition-duration: 100ms;
+    transition-timing-function: linear;
+}
+#signup:hover{
+    border: 1px outset darkgrey;
+    transition-delay: 0ms;
+    transition-property: border;
+    transition-duration: 100ms;
+    transition-timing-function: linear;
+}

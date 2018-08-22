@@ -1,0 +1,109 @@
+*{
+    margin: 0 auto 0;
+    text-align: center;
+}
+body{
+    width: 960px;
+    background-color: darkgoldenrod;
+    background-image:url(file:///C:/Users/Administrator/Desktop/New%20folder%20chester/Front-End%20Web%20Dev/bookwork/images/background.jpg.jpg);
+    background-size: 1030px 1250px;
+    background-blend-mode: color;
+    background-repeat: inherit;
+    background-position-x: center;
+    font-family:  Helvetica, sans-serif, Arial;
+}
+header{
+    margin: 30px 10px 30px 10px;
+    padding: 10px 0 10px 0;
+    background-color: cadetblue;
+    color: floralwhite;
+    font-size: xx-large;
+    border-radius: 10px;
+    box-shadow: 10px 10px 21px 1px darkslategrey;
+    font-family: monospace;
+}
+nav ul{
+    list-style: none;
+    float: left;
+}
+nav li{
+    padding: 10px 0 10px 0;
+}
+nav li a{
+    padding: 16px;
+    text-decoration: none;
+    background-color: burlywood;
+    color: sienna;
+    font-size: x-large;
+    border-radius: 5px;
+    transition-delay: 0ms;
+    transition-duration: 100ms;
+}
+h2{
+    width: 410px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0px 0px 261px;;
+    clear: both;
+    background-color: floralwhite;
+    color: firebrick;
+    font-size: xx-large;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 5px solid firebrick;
+    box-shadow: 10px 10px 21px 1px darkslategrey;
+}
+fieldset{
+    clear: both;
+    padding: 30px 10px 50px 20px;
+    margin: -5px 0px 0px 261px;
+    width: 400px;
+    background-color: darkgray;
+    font-size: x-large;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border: 5px solid firebrick;
+    box-shadow: 10px 10px 21px 1px darkslategrey;
+    /* inputs start */
+}
+#submit{
+    background-color: burlywood;
+    color: sienna;
+    padding: 10px;
+    font-size: large;
+    border-radius: 10px;
+    transition-delay: 0ms;
+    transition-duration: 100ms;
+}
+#signup{
+    padding: 10px;
+    font-size: medium;
+    text-decoration: none;
+    background-color: burlywood;
+    color: sienna;
+    border-radius: 10px;
+}
+#email{
+    padding: 15px 25px 15px 25px;
+    font-size: medium;
+}
+#email:valid{
+    outline: medium solid green;
+}
+#email:invalid{
+    outline: medium solid firebrick;
+}
+#password{
+    padding: 15px 25px 15px 25px;
+    font-size: medium;
+
+}
+/* inputs end */
+footer{
+    width: 940px;
+    padding: 10px;
+    margin:30px 0px 0 0px;
+    background-color: cadetblue;
+    color: floralwhite;
+    font-size: x-large;
+    border-radius: 10px;
+}

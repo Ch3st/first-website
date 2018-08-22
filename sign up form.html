@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>View Port Developers Sign Up</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/sign up form.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/sign up animate.css"/>
+    <script src="js/sign up Dom.js"></script>
+</head>
+<body>
+    <header>
+        <h1>View Port Developers</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
+    <!-- content start -->
+    <h2>Sign Up</h2>
+    <fieldset>
+    <form autocomplete="on" action="" method="post" name="ViewPoint form" enctype="multipart/form-data">
+
+        
+        <label for="name">Full Name </label>
+        <br>
+        <input autofocus type="name" placeholder="eg.kyle" id="name" required>
+
+        <br>
+
+        <label for="name">Surname</label>
+        <br>
+        <input type="name" placeholder="eg. davis" id="name" required>
+
+        <br>
+
+            <label for="age">Date of Birth </label>
+            <br>
+            <input type="date" name="date" id="age" required>
+        
+        <br>
+
+            <label for="gender">Gender </label>
+            <br>
+            <select type="list" name="gender" id="gender" required>
+                <option></option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        
+        <br>
+
+            <label for="tel">Mobile Number </label>
+            <br>
+            <input type="tel" name="tel" placeholder="Mobile Number" id="cell" required>
+        
+        <br>
+
+            <label for="email">Email Address </label>
+            <br>
+            <input type="email" name="Email" placeholder="eg. example@domain.com" id="email" required>
+
+        <br>
+
+            <label for="locations">Location </label>
+            <br>
+            <input list="locations" placeholder="country" id="location" required>
+            <datalist id="locations">
+                    <option value="South Africa">South Africa</option>
+                    <option value="England">England</option>
+                    <option value="America">America</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Other">Other</option>
+            </datalist>
+
+        <br>
+        <!-- submit btn -->
+        <input type="submit" value="Submit" id="submit">
+    </form>
+    </fieldset>
+    <footer>Copyright 2018 View Point Designers</footer>
+</body>
+</html>
